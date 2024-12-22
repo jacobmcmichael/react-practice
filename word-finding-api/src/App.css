@@ -1,0 +1,26 @@
+#root {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	width: 100%;
+	max-height: 100vh;
+}
+
+form {
+	margin-bottom: 1rem;
+}
+
+.results__group {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-self: stretch;
+
+	max-height: 30vh;
+}
+
+.results__group li {
+	display: inline-flex;
+}
